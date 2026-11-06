@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-3",
-  "os": "Microsoft Windows Server 2022 Datacenter",
-  "os_build": "10.0.20348",
+  "active": true,
+  "hostname": "rdpfree-4",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
+    "cpu_threads": 4,
     "ram_gb": 16.0,
-    "disk_free_gb": 81.0,
-    "cpu_threads": 4
+    "disk_free_gb": 31.2
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-04T18:52:08Z",
-  "expires_at": "2026-11-05T00:47:08Z",
+  "started_at": "2026-11-06T23:43:08Z",
+  "expires_at": "2026-11-07T05:38:08Z",
   "duration_menit": 355,
-  "run_id": "41891297935",
+  "run_id": "42313704743",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/ManzDonzzz/XyRDP/actions/runs/41891297935",
+  "run_number": "4",
+  "run_url": "https://github.com/ManzDonzzz/XyRDP/actions/runs/42313704743",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,90 +41,17 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
+      "ip": "100.107.215.18",
+      "magicdns": "rdpfree-4.tailb10604.ts.net.",
+      "hostname": "rdpfree-4",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "status": "ok"
     }
   },
   "media": {
     "microphone": "rdp_capture_enabled",
-    "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "wallpaper": "xyverse_configured_for_user_logon"
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 80.83,
-    "after_gb": 105.22,
-    "gained_gb": 24.39,
-    "removed_targets": 20,
-    "drives": [
-      {
-        "free_gb": 105.22,
-        "size_gb": 255.45,
-        "letter": "C",
-        "used_gb": 150.23
-      },
-      {
-        "free_gb": 147.01,
-        "size_gb": 150.0,
-        "letter": "D",
-        "used_gb": 2.99
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
-  },
-  "samp": {
-    "gta_installed": false,
-    "status": "dependencies_ready",
-    "directx": "verified_x86_x64",
-    "netfx3": "Enabled",
-    "directplay": "Enabled",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "play_tested": false,
-    "samp_installed": false
-  },
-  "game_environment": {
-    "windows_server": true,
-    "play_tested": false,
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "hypervisor_present": true,
-    "runner": "windows-2022"
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "minecraft_java": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "roblox": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "samp": {
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "gta_installed": false,
-      "status": "dependencies_ready",
-      "samp_installed": false,
-      "game_dir": null
-    }
-  },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-11-05T00:41:10.9024603Z",
-  "stopped_at": "2026-11-05T00:45:11Z"
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "audio_output": "rdp_playback_enabled"
+  }
 }
