@@ -1,25 +1,25 @@
 {
   "active": true,
-  "hostname": "rdpfree-4",
-  "os": "Microsoft Windows Server 2025 Datacenter",
-  "os_build": "10.0.26100",
+  "hostname": "rdpfree-5",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
     "ram_gb": 16.0,
-    "disk_free_gb": 31.2
+    "disk_free_gb": 78.7
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-06T23:43:08Z",
-  "expires_at": "2026-11-07T05:38:08Z",
+  "started_at": "2026-11-07T15:34:16Z",
+  "expires_at": "2026-11-07T21:29:16Z",
   "duration_menit": 355,
-  "run_id": "42313704743",
+  "run_id": "42387002123",
   "run_attempt": "1",
-  "run_number": "4",
-  "run_url": "https://github.com/ManzDonzzz/XyRDP/actions/runs/42313704743",
+  "run_number": "5",
+  "run_url": "https://github.com/ManzDonzzz/XyRDP/actions/runs/42387002123",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,90 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "ip": "100.107.215.18",
-      "magicdns": "rdpfree-4.tailb10604.ts.net.",
-      "hostname": "rdpfree-4",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "status": "ok"
-    }
+      "status": "ok",
+      "ip": "100.122.40.49",
+      "hostname": "rdpfree-5",
+      "magicdns": "rdpfree-5.tailb10604.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+    },
+    "mode": "tailscale"
   },
   "media": {
     "microphone": "rdp_capture_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "wallpaper": "xyverse_configured_for_user_logon",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "audio_output": "rdp_playback_enabled"
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 31.01,
-    "after_gb": 37.82,
-    "gained_gb": 6.81,
-    "removed_targets": 22,
-    "drives": [
-      {
-        "free_gb": 37.82,
-        "size_gb": 149.89,
-        "letter": "C",
-        "used_gb": 112.07
-      },
-      {
-        "free_gb": 147.01,
-        "size_gb": 150.0,
-        "letter": "D",
-        "used_gb": 2.99
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
-  },
-  "samp": {
-    "play_tested": false,
-    "status": "dependencies_ready",
-    "netfx3": "Enabled",
-    "samp_installed": false,
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "directx": "verified_x86_x64",
-    "directplay": "Enabled",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "gta_installed": false
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "roblox": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "samp": {
-      "gta_installed": false,
-      "status": "dependencies_ready",
-      "samp_installed": false,
-      "game_dir": null,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
-    },
-    "minecraft_java": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    }
-  },
-  "game_environment": {
-    "hypervisor_present": true,
-    "play_tested": false,
-    "windows_server": true,
-    "runner": "windows-latest",
-    "os": "Microsoft Windows Server 2025 Datacenter"
-  },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-11-07T00:25:39.6584343Z"
+  }
 }
